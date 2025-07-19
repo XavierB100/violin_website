@@ -3,31 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book Dorothe Blake</title>
+  <title>Dorothe Blake | Professional Violinist</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <header class="booking-hero">
+  <!-- Hero Section -->
+  <header class="hero">
     <div class="hero-overlay">
-      <h1>Book Your Event</h1>
-      <p>Fill out the form below to check availability.</p>
+      <h1>Dorothe Blake</h1>
+      <p>Professional Violinist for Weddings & Events</p>
+      <a href="booking.html" class="btn-gold">Book Now</a>
     </div>
   </header>
 
-  <section class="booking-form">
-    <!-- Calendly Embed -->
-    <div class="calendly-inline-widget" data-url="https://calendly.com/your-link" style="min-width:320px;height:700px;"></div>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-    
-    <div class="contact-cta">
-      <p>Prefer to discuss details first?</p>
-      <a href="index.html#contact" class="btn-gold">Contact Me</a>
+  <!-- Bio Section -->
+  <section class="bio">
+    <h2>About Me</h2>
+    <p>Classically trained violinist Dorothe Blake brings grace and passion to every performance. Specializing in weddings, corporate events, and private functions, she combines technical precision with emotional depth to create unforgettable musical moments.</p>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery">
+    <h2>Performances</h2>
+    <div class="video-grid">
+      <iframe src="https://www.youtube.com/embed/VJC2h8OslGE" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/tOpT__06120" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/s4g8ZGORYh4" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/hnfXm1ONSL4" frameborder="0" allowfullscreen></iframe>
     </div>
   </section>
 
-  <footer>
-    <p>&copy; 2024 Dorothe Blake. All rights reserved.</p>
-  </footer>
+  <!-- Contact -->
+  <section class="contact">
+    <h2>Get in Touch</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit" class="btn-gold">Send</button>
+    </form>
+    <div class="social-links">
+      <a href="https://wa.me/447768815926" class="whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="tel:+447768815926" class="call"><i class="fas fa-phone"></i> Call</a>
+      <a href="https://www.instagram.com/dorotheblake" class="instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/share/1EJr7LhvXg/" class="facebook"><i class="fab fa-facebook"></i></a>
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
