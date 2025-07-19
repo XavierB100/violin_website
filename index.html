@@ -4,53 +4,97 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dorothe Blake | Professional Violinist</title>
+  <meta name="description" content="Classically trained violinist available for weddings, events, and worship services. Over 40 years of performance experience.">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html" class="logo">Dorothe Blake</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#history">Journey</a>
+      <a href="#gallery">Performances</a>
+      <a href="#contact">Contact</a>
+      <a href="booking.html" class="btn-gold">Book Now</a>
+    </div>
+  </nav>
+
   <!-- Hero Section -->
   <header class="hero">
+    <img src="assets/hero-image.jpg" alt="Dorothe Blake performing on violin" class="hero-image">
     <div class="hero-overlay">
       <h1>Dorothe Blake</h1>
-      <p>Professional Violinist for Weddings & Events</p>
-      <a href="booking.html" class="btn-gold">Book Now</a>
+      <p>Professional Violinist for Weddings, Events & Worship</p>
+      <a href="booking.html" class="btn-gold">Book Your Event</a>
     </div>
   </header>
 
-  <!-- Bio Section -->
-  <section class="bio">
+  <!-- About Section -->
+  <section id="about" class="bio">
     <h2>About Me</h2>
-    <p>Classically trained violinist Dorothe Blake brings grace and passion to every performance. Specializing in weddings, corporate events, and private functions, she combines technical precision with emotional depth to create unforgettable musical moments.</p>
+    <p>Classically trained violinist with over 40 years of performance experience across Europe and North America. 
+       I specialize in weddings, corporate events, and worship services, blending technical precision with spiritual 
+       sensitivity to create unforgettable musical moments.</p>
   </section>
 
-  <!-- Gallery -->
-  <section class="gallery">
-    <h2>Performances</h2>
-    <div class="video-grid">
-      <iframe src="https://www.youtube.com/embed/VJC2h8OslGE" frameborder="0" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/tOpT__06120" frameborder="0" allowfullscreen></iframe>
+  <!-- History Section -->
+  <section id="history" class="history">
+    <h2>My Musical Journey</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Early Beginnings</h3>
+        <p>Began playing at age 7 in Rotterdam. Joined church worship teams and the Rotterdam Youth Symphony Orchestra by age 12.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Professional Development</h3>
+        <p>Performed with the Christian Radio and TV Orchestra (Evangelische Omroep) and studied at Continental Bible College in Brussels.</p>
+      </div>
+      <!-- More timeline items -->
+    </div>
+    <p class="history-footer">"I read music but can improvise too, playing from the heart and flowing in the Spirit."</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2>Performance Gallery</h2>
+    <div class="media-grid">
+      <!-- YouTube Embeds -->
       <iframe src="https://www.youtube.com/embed/s4g8ZGORYh4" frameborder="0" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/hnfXm1ONSL4" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/tOpT__06120" frameborder="0" allowfullscreen></iframe>
+      <!-- Local Images -->
+      <img src="assets/gallery-1.jpg" alt="Dorothe performing with orchestra">
+      <img src="assets/gallery-2.jpg" alt="Close-up of Dorothe playing violin">
     </div>
   </section>
 
-  <!-- Contact -->
-  <section class="contact">
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
     <h2>Get in Touch</h2>
-    <form id="contact-form">
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Message" required></textarea>
-      <button type="submit" class="btn-gold">Send</button>
-    </form>
-    <div class="social-links">
-      <a href="https://wa.me/447768815926" class="whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-      <a href="tel:+447768815926" class="call"><i class="fas fa-phone"></i> Call</a>
-      <a href="https://www.instagram.com/dorotheblake" class="instagram"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.facebook.com/share/1EJr7LhvXg/" class="facebook"><i class="fab fa-facebook"></i></a>
+    <div class="contact-container">
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn-gold">Send Message</button>
+      </form>
+      <div class="direct-contact">
+        <a href="https://wa.me/447768815926" class="whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a href="tel:+447768815926" class="phone"><i class="fas fa-phone"></i> +44 7768 815926</a>
+        <a href="mailto:Dorothe@hotmail.co.uk" class="email"><i class="fas fa-envelope"></i> Dorothe@hotmail.co.uk</a>
+        <div class="social-links">
+          <a href="https://www.instagram.com/dorotheblake"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/share/1EJr7LhvXg/"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
     </div>
   </section>
+
+  <footer>
+    <p>&copy; 2024 Dorothe Blake. All rights reserved.</p>
+  </footer>
 
   <script src="js/script.js"></script>
 </body>
